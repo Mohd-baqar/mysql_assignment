@@ -88,8 +88,6 @@ DROP COLUMN location;
 
 ### Q15. Rename the database to company_management using supported MySQL operations.
 CREATE DATABASE if not exists company_management;
-DROP TABLE IF EXISTS company_management.staff;
-DROP TABLE IF EXISTS company_management.departments;
 
 RENAME TABLE
     company_training.departments
